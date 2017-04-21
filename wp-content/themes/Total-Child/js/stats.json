@@ -1,0 +1,143 @@
+[
+	{
+		"Question": "Residency",	
+		"data" : {
+			"Bylaws/AOI":45.10,
+			"Clerk must be resident": 1.96,
+			"In-state not required": 50.98,
+			"n/a":	1.96,
+			"(blank)":	0,
+			"Grand Total":	100.00
+		}	
+	}, {
+		"Question":"Quorum",
+		"data" : {
+			"1/3":	64.71,
+			"1/4":	1.96,
+			"1/5":	1.96,
+			"Bylaws":	3.92,
+			"Majority":	27.45,
+			"(blank)":	0,
+			"Grand Total":	100.00
+		}		 		
+	}, {
+		"Question":"Terms",	
+		"data": {		
+			"Bylaws/AOI":	31.37,
+			"Bylaws/AOI, or 1 yr.":	58.82,
+			"n/a":	9.80,
+			"(blank)":	0,
+			"Grand Total": 100.00
+		}		 
+	}, {
+		"Question": "Meeting Location",	
+		"data": {
+			"Bylaws": 5.88,
+			"n/a": 1.96,
+			"Regular or special  in or out of state": 92.16,
+			"(blank)": 0,
+			"Grand Total":	100.00
+		}
+	}, {
+		"Question": "Notice of Meetings",			 
+		"data": {
+			"2 days' notice, may be delivered electronically":	1.96,
+			"Bylaws":	37.25,
+			"n/a":	5.88,
+			"Not less than 10 days, no more than 60 days before meeting":	1.96,
+			"Not required for regular meetings; 10 days' notice for special meetings.":	1.96,
+			"Not required for regular meetings; 2 days' notice for special meetings.":	45.10,
+			"Not required for regular meetings; 2 days' notice for special meetings; 7 days for director removal.":	1.96,
+			"Not required for regular meetings; 5 days' notice for special meetings.":	1.96,
+			"Not required.":	1.96,
+			"(blank)":	0,
+			"Grand Total": 100.00
+		}
+	}, {
+		"Question": "Waiver of Notice",	
+		"data": {
+			"Attendance":	21.57,
+			"Attendance. Signed waiver.":	66.67,
+			"Bylaws":	3.92,
+			"n/a": 7.84,
+			"(blank)":	0,
+			"Grand Total":	100.00
+		}		 
+	}, {
+		"Question": "E-Meeting",
+		"data": {
+			"Bylaws":	3.92,
+			"n/a":	1.96,
+			"Yes (C)":	1.96,
+			"Yes (communicate)":	15.69,
+			"Yes (H)":	70.59,
+			"Yes (P)":	5.88,
+			"(blank)":	0,
+			"Grand Total":	100.00
+		}		 
+	}, {
+		"Question": "Actions",
+		"data": {
+			"Bylaws":	3.92,
+			"n/a": 3.92,
+			"W/o meeting by written consent approved by quorum. Votes can be revoked in writing. All writings must be filed with minutes.":	1.96,
+			"W/o meeting by written consent signed by 2/3 members.":	1.96,
+			"W/o meeting by written consent signed by all members and included in minutes.":	80.39,
+			"W/o meeting by written consent signed by all members and included in minutes.  Interested/common directors excluded when applicable.":	1.96,
+			"W/o meeting by written consent signed by majority of members and included in minutes.":	1.96,
+			"W/o meeting by written consent signed by quorum and included in minutes.":	3.92,
+			"(blank)":	0,
+			"Grand Total":	100.00
+		}		 		 
+	}, {
+		"Question": "Vacancy of Elected Directors",		
+		"data": {
+			"Bylaws": 2,
+			"May be filled by BOD": 8,
+			"May be filled by BOD, director filling vacancy only serves remaining term of predecessor.": 7,
+			"May be filled by BOD; director filling vacancy only serves remaining term of predecessor.": 1,
+			"May be filled by BOD; if the vacant office was previously voted by members of a unit, then only that unit can fill the vacancy.":	30,
+			"May be filled until next election.":	1,
+			"Must be filled in 6 months or by next annual meeting, whichever comes first. May be filled by BOD, director filling vacancy only serves remaining term of predecessor.":	1,
+			"n/a":	1,
+			"(blank)":	0,
+			"Grand Total":	51
+		}	 
+	}, {
+		"Question": "Removal of Elected Directors",		
+		"data": {
+			"Bylaws/AOI":	19.61,
+			"Can be removed with or without cause by majority vote.":	15.69,
+			"Can be removed with or without cause by same unit/number of votes that elected the director.":	54.90,
+			"Can be removed with or without cause by same unit/number of votes that elected the director. Special meeting required.":	7.84,
+			"n/a":	1.96,
+			"Grand Total":	100
+		}	 
+	}, {
+		"Question": "Resignation of Elected Directors",	 
+		"data": {
+			"Bylaws":	3.92,
+			"n/a":	17.65,
+			"Written notice, effective immediately unless post-dated":	78.43,
+			"Grand Total":	100.00
+		}
+	}, {
+		"Question": "Election by Directors",	
+		"data": {
+			"Bylaws/AOI":	86.27,
+			"n/a":	9.80,
+			"Written/e-written ballot by board of directors":	3.92,
+			"Grand Total":	100.00
+		}	 
+	}, {
+		"Question": "Conflicts of Interest",		
+		"data": {
+			"Bylaws":	3.92,
+			"COI must be disclosed; interested director may vote; vote is only valid if majority of non-interested directors approve the vote.":	43.14,
+			"COI must be disclosed; interested directors may count towards quorum, but may not deliberate or vote on related issues":	39.22,
+			"COI policy required; interested directors may count towards quorum, but may not deliberate or vote on related issues":	3.92,
+			"n/a":	9.80,
+			"Grand Total":	100.00
+		}	 
+	}
+]

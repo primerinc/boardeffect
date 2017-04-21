@@ -1,0 +1,614 @@
+/*
+Theme Name: BoardEffect - Total Child
+Theme URI: http://totalwptheme.com
+Description: Total WordPress theme example child theme.
+Author: AJ Clarke
+Author URI: http://totalwptheme.com
+Template: Total
+Version: 1.0
+
+*/
+
+@import url("../Total/style.css");
+
+p, h2 {
+letter-spacing: 1px;
+}
+.navbar-style-one .dropdown-menu ul a:hover{
+text-shadow: none !important;
+}
+
+.wpb_button, .wpb_content_element, .wpb_row, ul.wpb_thumbnails-fluid>li {
+	margin-bottom: 0 !important;
+}
+
+#footer-callout .theme-button, .menu-item-1040 a{
+padding: 0.6em 1.4em;
+margin: 0 5px 5px 0;
+display: inline-block;
+font-size: 13px;
+font-weight: 600 !important;
+color: #fff !important;
+border: 0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-shadow: none;
+outline: none;
+border: none;
+-webkit-appearance: none;
+}
+
+div.downloadBtn { /* Footer download link buttons */
+  float: left !important;
+}
+
+div.downloadBtn:nth-child(3) { /* For Amazon Kindle button */
+  margin-top: 5px !important;
+}
+
+.menu-item-1040 a{
+font-size: 14px;
+margin-bottom: 0;
+background-color: #dfe0e8 !important;
+color: #1a4d7f !important;
+margin-left: 15px;
+}
+.menu-item-1040 a:hover, #site-navigation .dropdown-menu > #menu-item-1040.current-menu-item > a:hover {
+background-color: #1a4d7f !important;
+color: #dfe0e8 !important;
+}
+p.standard_contact span{
+    margin-bottom: 0px;
+    padding-right: 40px;
+  }
+p.standard_contact a span{
+  padding:0px;
+}
+div.wpcf7 .wpcf7-mail-sent-ok {
+margin: 10px 0 0;
+padding: 10px;
+background: #fff;
+border: 1px solid #fff;
+text-align: center;
+color: #fff;
+font-weight: normal;
+display:none !important;
+}
+
+span.wpcf7-list-item { display: block; }
+
+select {
+  color: #777;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  -webkit-transition: .3s linear border;
+  -moz-transition: .3s linear border;
+  -ms-transition: .3s linear border;
+  -o-transition: .3s linear border;
+  transition: .3s linear border;
+  max-width: 100%;
+  border: 1px solid #e4e4e4;
+  background: #f7f7f7;
+}
+
+/*********************************/
+/*** REQUEST A DEMO NAV BUTTON ***/
+/*********************************/
+#site-navigation .dropdown-menu > li.request-demo {
+  background-color: #fc4a04;
+        border-radius: 3px;
+        margin-left: 10px;
+}
+#site-navigation .dropdown-menu > li.request-demo:hover {
+        background-color: #a6370b;
+}
+#site-navigation .dropdown-menu > li.request-demo > a{
+        color: #fff !important;
+        font-weight: 600;
+        letter-spacing: 1px;
+}
+#site-navigation .dropdown-menu > li.request-demo > a:hover {
+        color: #fff !important;
+        font-weight: 600;
+        letter-spacing: 1px;
+}
+#site-navigation .dropdown-menu > .current-menu-item > a {
+  background: none !important;
+}
+.mobile-toggle-nav-ul > li.request-demo {
+        margin: 0;
+  background-color: #fc4a04;
+}
+.mobile-toggle-nav-ul > li.request-demo:hover {
+  background-color: #a6370b;
+}
+.mobile-toggle-nav-ul > li.request-demo > a{
+        color: #fff;
+  font-weight: 600;
+        letter-spacing: 1px;
+}
+
+/* From custom CSS
+*/
+.navbar-style-one {
+        margin-top: -20px;
+}
+#site-navigation li,
+.navbar-style-one .dropdown-menu > li > a{
+        height: 40px;
+        line-height: 40px;
+}
+#site-navigation .dropdown-menu > li:last-child,
+#site-navigation .dropdown-menu > li:last-child:hover {
+  background-color: #fc4a04;
+        border-radius: 3px;
+        margin-left: 10px;
+}
+#site-navigation .dropdown-menu > li:last-child:hover,
+#site-navigation .dropdown-menu > li:last-child > a:hover {
+        background-color: #a6370b;
+        border-radius: 3px;
+}
+#site-navigation .dropdown-menu > li:last-child > a{
+        color: #fff !important;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 40px;
+}
+#site-navigation .dropdown-menu > li:last-child > a:hover {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#site-navigation .dropdown-menu > .current-menu-item > a {
+  background: none !important;
+}
+body.shrink-fixed-header #site-header-sticky-wrapper.is-sticky .header-one #site-navigation-wrap,
+body.shrink-fixed-header #site-header-sticky-wrapper.is-sticky .header-one .dropdown-menu > li > a {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 0px;
+}
+ul.mobile-toggle-nav-ul.container {
+  width: 100% !important;
+}
+.mobile-toggle-nav-ul > li {
+  padding-left: 10px;
+}
+.mobile-toggle-nav-ul > li:last-child {
+  margin: 0;
+  background-color: #fc4a04;
+}
+.mobile-toggle-nav-ul > li:last-child:hover {
+  background-color: #a6370b;
+}
+.mobile-toggle-nav-ul > li:last-child > a{
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-top: none;
+}
+
+/* SECURITY-OVERVIEW ALIGNMENT FIX */
+#crmWebToEntityForm > form > table {
+  margin: 15px;
+}
+
+/* Added style for floating text left/button right block like on homepage */
+.text_block_btn .entry h2{
+  color: white !important;
+}
+
+/* Gravity form adjustments */
+/* Change Label font weight */
+.gfield_label {
+  font-weight: inherit !important;
+}
+
+/* Use orange button instead of default */
+.gfield_boardeffect_orange input[type=submit]{
+  background: #fc4a04;
+  -webkit-transition: 1s all;
+  transition: 0.7s all;
+}
+
+.gfield_boardeffect_orange input[type=submit]:hover {
+  background: #a6370b;
+}
+/* End Gravity form adjustments */
+
+/* Adjust slider circle navigation elements for blue backgrounds */
+.owl-dot {
+  background: #aaa !important;
+}
+
+.owl-dot.active {
+  background: #1a4e7d !important;
+}
+
+/*******************************
+Adjust the orange button on scroll 
+********************************/
+
+#site-navigation .dropdown-menu > li:last-child { margin-right: 12px; }
+
+/*******************************
+Turn off the search for mobile
+********************************/
+.mobile-toggle-nav #mobile-menu-search {
+  display: none !important;
+  visible: hidden !important;
+}
+
+/*******************************
+Category page header styles
+********************************/
+.center-cat {
+  text-align: center !important;  
+  width: 100%;
+  padding: 40px 0;
+} 
+
+h1.center-cat, span.center-cat  {
+  font-size: 38px !important;
+  letter-spacing: 0px;
+} 
+
+.category-head {
+  text-align: center !important;
+  /*min-height: 214px !important;*/
+}
+
+.category-head-events {
+  background: url('http://www.boardeffect.com/wp-content/uploads/2015/12/Events_Update.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.category-head-blog {
+  background: url('http://www.boardeffect.com/wp-content/uploads/2015/12/BLOG_Update.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.category-head-news {
+  background: url('http://www.boardeffect.com/wp-content/uploads/2015/12/News_Update.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.category-head-publications {
+  background: url('http://www.boardeffect.com/wp-content/uploads/2015/12/Publications_Update.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.category-head .page-header-title {
+  color: #fff !important;
+}
+
+/*******************************
+Blog email subscription form styles
+********************************/
+
+#gform_4 {
+  margin: 0 auto; 
+  position: relative;
+}
+
+#gform_4 .ginput_container_email {
+  position: relative;
+  z-index: 10;
+  width: 160px;
+}
+
+#gform_submit_button_4 {
+  margin-left: 15px;
+}
+
+.BlogForm #input_4_1 {
+  text-align: center;
+}
+
+.BlogForm span.gfield_required{
+  display: none;
+}
+
+.BlogForm div.ginput_container_email {
+  /*max-width: 200px;*/
+}
+
+.BlogForm .gform_button {
+  /*float: right;
+  width: 20px;*/
+  position: relative;
+  border-radius: 5px;
+  height: 38px;
+}
+
+.BlogForm .ginput_container.ginput_container_email {
+  margin: 0 !important;
+}
+
+.BlogForm .gform_wrapper, .BlogForm .gform_footer {
+  padding: 0px !important;
+  clear: none !important;
+  position: relative !important;
+}
+
+.BlogForm .ginput_container_email input {
+  border-radius: 5px;
+  background-color: #fff;
+  height: 38px;
+}
+
+.BlogFormSub {
+  max-width: 250px;
+}
+
+div#gform_confirmation_wrapper_4.gform_confirmation_wrapper.BlogForm {
+  text-align: center;
+  padding: 20px;
+}
+
+div.signup-form {
+  text-align: center !important;
+  position: relative;
+}
+
+div.signup-form h5 {
+  color: #fff;
+}
+
+.page-header .searchform{
+  max-width: 250px !important;
+  margin: 0 auto;
+  text-align: center !important;
+  opacity: 0.9;
+}
+
+.pad { /* Added below blog search field for padding  */
+  height: 30px;
+}
+
+/* Adjust the Z-index of the footer to overlap the sticky sidebar on blog page */
+#footer {
+  position: relative;
+  z-index: 10;
+}
+
+.sidebar-box:nth-child(2) { padding-bottom: 5px !important }
+
+.BlogForm_wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/*
+Hide the author image
+*/
+.single-blog-article .author-bio-avatar {
+  display: none !important;
+}
+
+.single-blog-article .author-bio {
+  padding: 25px;
+}
+
+/*
+Adjust blog page headeline
+*/
+
+.single-blog-header h1, h2.blog-entry-title {
+  line-height: 1.3em;
+}
+
+/*
+Footer Widget Custom Rollovers
+*/
+.custom-widget img{
+  max-height: 35px;
+}
+
+.custom-widget a {
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;*/
+}
+
+.custom-widget a:hover {
+  /*-webkit-filter: grayscale(0%);
+  filter: grayscale(0%);*/
+}
+
+.custom-widget a:first-child {
+  margin-right: 10px;
+}
+
+.invert a:first-child:hover {
+  /*-webkit-filter: invert(100%);
+  filter: invert(100%);*/
+}
+
+#sidebar { /* Added solid background to sidebar to fix the sticky menu scroll glitch*/
+  background: white !important;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) {
+  background: #1a4e7d;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) .widget-title{
+  color: white;
+  padding: 20px 25px 5px 25px;
+  margin: 0;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-weight: 300;
+  text-align: center;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) .textwidget .vc_row {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) #gform_4 .ginput_container_email {
+  width: 100%;
+  margin: auto 10px;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) .gform_footer {
+  width: 100%;
+  text-align: center;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) .gform_wrapper {
+  margin: 0 !important;
+}
+
+#sidebar-inner .sidebar-box:nth-child(2) .gform_wrapper form li {
+  margin: 0;
+  text-align: center;
+}
+
+.BlogForm_wrapper {
+  margin: 0 !important;
+  padding-bottom: 10px;
+}
+
+#field_4_1 {
+  padding-right: 0 !important;
+}
+
+/* Ad section */
+
+div #ad_section {
+  padding: 20px;
+  color: white;
+  min-height:200px;
+  min-width:350px;
+}
+
+div #ad_section h3, div #ad_section h5 {
+  padding:10px 0;
+  color:white;
+  margin:0;
+}
+
+div #ad_section a:hover {
+  text-decoration: overline;
+}
+
+#top-bar a:hover, #top-bar-content a:hover{
+  text-decoration: none !important;
+}
+
+#top-bar-content {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#top-bar-content .phone_support {
+  margin-left: 15px;
+}
+
+/*************************
+Responsive Media Queries 
+*************************/
+
+@media only screen and (max-width: 767px) { 
+  body.is-mobile #site-logo img{
+    height:auto !important;
+  }
+  p.standard_contact span{
+    margin-bottom: 15px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  /*#gform_28 {
+    position: inherit;
+    margin: 0 auto; 
+  }
+
+  .BlogForm .ginput_container_email input {
+    margin: 0 auto;
+    border-radius: 0;
+  }
+
+  .BlogForm .gform_button {
+    margin: 0 auto;
+    border-radius: 0;
+    position: initial;
+  }*/
+}
+
+@media screen and (max-width: 1000px) {
+  body.wpex-responsive .container, body.wpex-responsive .vc_row-fluid.container {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 957px) {
+  .content-area {
+    width: 580px !important;
+  }
+
+  div.downloadBtn:nth-child(3) { /* For Amazon Kindle button */
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 868px) and (min-width: 768px) {
+  .content-area {
+    width: 95% !important;
+  }
+
+  #sidebar {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  #content-wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  #primary {
+    -webkit-order: 2;
+    order: 2;
+    width: 100% !important;
+  }
+
+  #gform_4 {
+    margin: 0;
+    position: relative;
+  }
+
+  .BlogFormSub {
+    max-width: 100%;
+  }
+}
+
+
