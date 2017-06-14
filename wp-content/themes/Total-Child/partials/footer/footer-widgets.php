@@ -65,6 +65,7 @@ $wrap_classes = implode( ' ', $wrap_classes ); ?>
 				<div class="widget-title">SECURITY CERTIFICATIONS</div>
 				<div class="textwidget custom-widget">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=53702ba0-ceac-4531-b2d8-ba76f4a4199d" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=53702ba0-ceac-4531-b2d8-ba76f4a4199d" alt="TRUSTe"/></a></div>
+					<div><a href="http://www.aicpa.org/soc" target="_blank"><img style="border: none;max-height: 65px;margin: 5px 18px;" src="http://local.wordpress.dev/wp-content/uploads/2017/06/aicpa.png" alt="AICPA"/></a></div>
 				</div>
 			</div>
 			<?php dynamic_sidebar( 'footer_three' ); ?>
